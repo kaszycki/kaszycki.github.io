@@ -1,16 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Steve Kaszycki</title>
+	<title>Steve Kaszycki | Homepage</title>
+	<style>
+		body {background-color: powderblue;}
+		h1   {color: blue;}
+		/*p    {color: red;} */
+a {
+  color: black;
+  text-decoration: none; /* no underline */
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+.section {
+  height: 80%;
+  margin: 10px;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 5px;
+}
+
+#bottom { 
+                position:relative;                  
+                bottom:0;                          
+                left:0;                          
+            } 
+</style>
 </head>
 <body>
-<img src="me.jpg" alt="Steve Kaszycki" id="Me">
-<p>I am a Phd candidate at the <a href="http://www.uga.edu">University of Georgia</a>. My research is cross-disciplinary, delving into both <a href="http://polisci.uga.edu/">political science</a> and <a href="http://www.terry.uga.edu/academics/offices/accounting">accounting</a>. In addition to my core training, I've completed advanced coursework in the <a href="http://www.stat.uga.edu/">statistics</a> department</p>
+	<ul id="Menu">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#Projects">Projects</a></li>
+  <li><a href="#Consulting">Consulting</a></li>
+  <li><a href="#CV">C.V.</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+<div id="MainTitle"><h1>Steve Kaszycki</h1></div>
+<div class="section">
+<p><a href="https://media.giphy.com/media/3o85xwGZR5UtB6SiL6/giphy.gif">Welcome</a> to my homepage. I am a <a href="https://chronicle.brightspotcdn.com/dims4/default/eca9795/2147483647/strip/true/crop/582x388+59+0/resize/1680x1120!/format/webp/quality/90/?url=http%3A%2F%2Fchronicle-brightspot.s3.amazonaws.com%2F71%2Fcf%2F832d0823e7186447b3c6edd3e7ee%2Fisaac.jpg">political scientist</a> and <a href="https://i2.wp.com/analyticsindiamag.com/wp-content/uploads/2017/10/data-scientist-excess.jpg">data scientist</a> currently working in <a href="https://media.giphy.com/media/VP5UwVic0l7W0/giphy.gif">industry</a>.</p> 
 
-<p>My dissertation uses multiple Bayesian measurement models to examine the relationship between corporate political activity and corporate tax aggressiveness.</p> I also research measurement models, applications of social network analysis, Bayesian statistics, and Chinese politics.
-<p><a href="/cv.html">Here</a> is my C.V.</p>
-<p>email: kaszycki -at- uga dot edu</p>
+<p>I completed my undergrad in the <a href="https://www.mascaroconstruction.com/uploads/Pitt-Cathedral-Exterior.jpg">University of Pittsburgh</a> and my <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theguardian.com%2Fcareers%2Fphd-right-career-option&psig=AOvVaw3OAic3ASUo4uOc-jPKtw2-&ust=1615230798572000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCTtuPxnu8CFQAAAAAdAAAAABAD">Phd</a> at the <a href="https://www.uga.edu/images/locations/Baldwin-t-24533-011-474x313.jpg">University of Georgia.</a></p>
+<p>I am not a web designer.</p>
 
+<div id="bottom">
+<p>Note: This page uses no javascript. I am probably more satisfied by that fact than is reasonable.</p>
+</div>
+</div>
+
+<div class="section">
+	<h1 id="Projects">Projects</h1>
+	<p>Stay tuned for future projects.</p>
+</div>
+
+<div class="section" >
+	<h1 id="Consulting">Consulting</h1>
+	I am available for consulting projects. I am experienced in a variety of empirical research approaches, including linear/generalized linear models, Bayesian estimation, time series analysis, latent variable modeling, and machine learning techniques (boosting, support vector machines, etc.).
+</div>
+
+<div class="section" >
+	<h1 id="contact">Contacting Me</h1>
+	If you wish to contact me, use my first name and my last name, separated by a period, in the domain of gmail.
+</div>
 </body>
 </html>
